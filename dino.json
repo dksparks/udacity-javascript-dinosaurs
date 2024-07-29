@@ -7,7 +7,7 @@
             "diet": "herbivore",
             "where": "North America",
             "when": "Late Cretaceous",
-            "fact": "First discovered in 1889 by Othniel Charles Marsh"
+            "fact": "First discovered in 1889 by Othniel Charles Marsh."
         },
         {
             "species": "Tyrannosaurus rex",
@@ -19,13 +19,13 @@
             "fact": "The largest known skull measures in at 5 feet long."
         },
         {
-            "species": "Anklyosaurus",
+            "species": "Ankylosaurus",
             "weight": 10500,
             "height": 55,
             "diet": "herbivore",
             "where": "North America",
             "when": "Late Cretaceous",
-            "fact": "Anklyosaurus survived for approximately 135 million years."
+            "fact": "Ankylosaurus survived for approximately 135 million years."
         },
         {
             "species": "Brachiosaurus",
@@ -70,7 +70,7 @@
             "diet": "herbivore",
             "where": "World Wide",
             "when": "Holocene",
-            "fact": "All birds are living dinosaurs."
+            "fact": "All birds are dinosaurs."
         }
     ]
 }
