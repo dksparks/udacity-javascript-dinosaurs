@@ -1,3 +1,28 @@
+# Dinosaurs Project for Udacity Object-Oriented JavaScript Course
+
+This is my submission for the Dinosaurs project, which
+is the final part of the Udacity Objected-Oriented
+JavaScript course.
+
+It is not clear to me whether my project will be
+evaluated by accessing it from a server or by viewing
+`index.html` locally. To avoid problems, I have moved
+the contents of `dino.json` directly into the `app.js`
+file. In reality, we would probably want to leave
+`dino.json` in a separate file and `fetch()` it in
+`app.js`.
+
+Also note that I have corrected a few problems, mostly
+spelling issues, in the provided dinosaur data and
+html file. Correspondingly, I have renamed the file
+`images/anklyosaurus.png` (where the dinosaur's name is spelled incorrectly) to `images/ankylosaurus.png`
+(the correct spelling).
+
+The original README.md that was provided with the
+starter code is preserved below.
+
+---
+
 # Object Oriented Javascript 
 
 ## Student Instructions

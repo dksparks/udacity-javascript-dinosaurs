@@ -158,7 +158,7 @@ document.getElementById("btn").onclick = function () {
 // It is not clear to me whether my project will be
 // evaluated by accessing it from a server or by
 // viewing index.html locally.
-// To avoid problems, I have copied the contents of
+// To avoid problems, I have moved the contents of
 // dino.json directly into this file.
 // In reality, we would probably want to leave
 // dino.json in a separate file and fetch() it here.
