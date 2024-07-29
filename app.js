@@ -16,6 +16,8 @@ function Dino(rawDino) {
 // within an IIFE.
 (function () {
   function compareNumeric(dino, human, prop) {
+    // Make a string containing the result of a
+    // numeric comparison between dino and human
     const hNum = human[prop];
     const dNum = dino[prop];
     const humanLarger = hNum > dNum;
@@ -51,9 +53,12 @@ Dino.prototype.compareDiet = function (human) {
 };
 
 Dino.prototype.randomInfo = function (human) {
+  // Always return the fact for the Pigeon
   if (this.species === "Pigeon") {
     return this.fact;
   }
+  // Otherwise choose one of the other six pieces of
+  // information at random
   const randInt = Math.floor(Math.random() * 6);
   switch (randInt) {
     case 0:
@@ -85,6 +90,7 @@ function Human(name, height, weight, diet) {
 // within an IIFE.
 (function () {
   function makeTile(head, image, body) {
+    // Make a tile DOM element
     const tile = document.createElement("div");
     tile.classList.add("grid-item");
     const h3 = document.createElement("h3");
