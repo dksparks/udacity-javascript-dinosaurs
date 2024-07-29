@@ -190,7 +190,7 @@ document.getElementById("btn").onclick = function () {
         "diet": "herbivore",
         "where": "North America",
         "when": "Late Cretaceous",
-        "fact": "Ankylosaurus survived for approximately 135 million years.",
+        "fact": "Ankylosaurus had some of its bones fused together for strength.",
       },
       {
         "species": "Brachiosaurus",
